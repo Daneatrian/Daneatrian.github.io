@@ -1,5 +1,5 @@
 body {
-    background: black; 
+    background: blue; 
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
@@ -12,3 +12,13 @@ h1,h2,p {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
+.assignment {
+    display:flex;
+    padding:10px;
+    margin:20px;
+    background: black; 
+}
+
+.assignment img {
+    padding: 10px;
+}
