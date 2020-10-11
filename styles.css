@@ -1,5 +1,5 @@
 body {
-    background: blue; 
+    background: white; 
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
@@ -8,7 +8,7 @@ h1,h2 {
 }
 
 h1,h2,p {
-    color: white;
+    color: black;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
@@ -16,9 +16,16 @@ h1,h2,p {
     display:flex;
     padding:10px;
     margin:20px;
-    background: black; 
+    background: skyblue; 
 }
 
 .assignment img {
-    padding: 10px;
+    border: 2px solid gold;
+    margin-right: 20px;
 }
+
+    a {
+        text-decoration:none;
+        color:grey;
+    }
+
