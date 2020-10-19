@@ -1,5 +1,5 @@
 body {
-    background: white; 
+    background: black; 
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
@@ -8,7 +8,7 @@ h1,h2 {
 }
 
 h1,h2,p {
-    color: black;
+    color: white;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
@@ -16,16 +16,24 @@ h1,h2,p {
     display:flex;
     padding:10px;
     margin:20px;
-    background: skyblue; 
+    margin-bottom: 20px;
+    background: gray; 
+    border-radius: 5px;
+    box-shadow: 5px 10px skyblue;
 }
 
 .assignment img {
-    border: 2px solid gold;
+    border: 2px solid skyblue;
     margin-right: 20px;
+    border-radius: 5px;
 }
 
     a {
         text-decoration:none;
-        color:grey;
+        color:skyblue;
+    }
+
+    .assignment a:hover {
+        color: purple; 
     }
 
