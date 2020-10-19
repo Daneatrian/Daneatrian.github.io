@@ -33,7 +33,7 @@ h1,h2,p {
         color:skyblue;
     }
 
-    .assignment a:hover {
+    .assignment a  :hover {
         color: purple; 
     }
 
