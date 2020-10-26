@@ -12,8 +12,13 @@ h1,h2,p {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-.assignment {
+.assignments {
     display:flex;
+    flex-wrap:wrap;
+}
+
+.assignment {
+    width: 30%;
     padding:10px;
     margin:20px;
     margin-bottom: 20px;
@@ -26,6 +31,8 @@ h1,h2,p {
     border: 2px solid skyblue;
     margin-right: 20px;
     border-radius: 5px;
+    display:block;
+    margin:auto;
 }
 
     a {
