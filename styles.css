@@ -41,6 +41,6 @@ a {
     color: skyblue;
 }
 
-.assignment a:hover {
-    color: purple; 
+a:hover {
+    color: purple !important;
 }
